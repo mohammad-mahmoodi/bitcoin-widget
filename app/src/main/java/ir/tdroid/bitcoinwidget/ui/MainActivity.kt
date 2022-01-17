@@ -10,6 +10,13 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+import android.content.ComponentName
+
+import android.appwidget.AppWidgetManager
+import android.widget.RemoteViews
+import ir.tdroid.bitcoinwidget.ui.widget.BitcoinValueWidget
+
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     @Inject
