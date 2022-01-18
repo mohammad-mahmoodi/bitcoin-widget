@@ -19,7 +19,6 @@ class BitcoinValueWidget : AppWidgetProvider() {
 
     private val updateBitcoinValueWorkerRequest: WorkRequest =
         OneTimeWorkRequestBuilder<UpdateBitcoinValueWorker>()
-            .keepResultsForAtLeast(1 , TimeUnit.SECONDS)
             .setConstraints(constraints)
             .setBackoffCriteria(
                 BackoffPolicy.LINEAR,
