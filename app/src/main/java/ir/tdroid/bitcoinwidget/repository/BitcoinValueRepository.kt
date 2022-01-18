@@ -3,7 +3,7 @@ package ir.tdroid.bitcoinwidget.repository
 import ir.tdroid.bitcoinwidget.data.BitcoinValueLocalDataSource
 import ir.tdroid.bitcoinwidget.remote.ApiService
 import javax.inject.Inject
-const val validBitcoinPriceDuration = 1000 * 60 * 60 * 24
+const val validBitcoinPriceDuration = 1000 * 60 * 60 * 24L
 class BitcoinValueRepository @Inject constructor(
     private val apiService: ApiService,
     private val bitcoinValueLocalDataSource: BitcoinValueLocalDataSource,

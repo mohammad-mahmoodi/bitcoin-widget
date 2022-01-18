@@ -5,7 +5,7 @@
     android:initialLayout="@layout/bitcoin_value_widget"
     android:minWidth="150dp"
     android:minHeight="40dp"
-    android:previewImage="@drawable/example_appwidget_preview"
+    android:previewImage="@drawable/bitcoin"
     android:previewLayout="@layout/bitcoin_value_widget"
     android:resizeMode="horizontal|vertical"
     android:targetCellWidth="2"
